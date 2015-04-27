@@ -1,0 +1,102 @@
+Die wichtigsten HTML5-Tags
+
+<!DOCTYPE html>                                                         1.st Zeile um der Seite zu sagen dass HTML 5 benutzt werden soll
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">     In head-bereich für Umlaute
+
+<!--Hier der Text -->                                                   Um Kommentare hinzuzufügen
+
+<html>		                                                          		Anfang eines Dokuments 	
+</html> 			                                                          Ende eines Dokuments
+
+<head>                                                                  Der Teil der Seite den man nicht sieht aber für die Website brauch
+</head>                                                                 Ende des head bereichs
+
+<style>body { background: url("Hier muss der Link rein"); }</style>     Um ein Bild als Hintergrundbild zu verwenden (mus in denhead bereich)
+
+<title>				                                                          Oberer Titel der Seite (muss in den <head> bereich)
+
+<img src="smiley.gif" height="42" width="42">                           Um ein Bild einzufügen
+
+<body>                                                                  Inhalt	
+</body>                                                                 Ende des Inhalts
+
+<body bgcolor="red">                                                    Hintergrundfarbe
+
+<br>		                                                            		Zeilenumbruch
+
+<pre>....</pre>                                                         Leerzeichen und Eingabetaste ist zu sehen
+
+<hr>                                                                    Langer strich als Abtrennung  (---)
+
+<span style="color:#00ff00;"> TEXT </span>                              Verschieden Farben kommt auf das „00ff00“ an 
+
+<b> Fetter Text </b>
+<i> Kursiver Text <i>
+<u> Unterstrichener Text </u>
+<del> durchgestrichener Text </del>
+<h1> Überschrift </h1>                                                          (die 1 regelt die größe)
+<mark>markierter Text</mark>
+<marquee> Ich fliege hin und her </marquee>
+<marquee behavior="alternate">Ich pralle am Rand ab</marquee>
+
+<span style="font-size:50px;">Hier den Text eingeben</span>                     Schriftgröße (50)
+<span style="font-family:arial;">Hier den Text eingeben</span>		              Schriftart  (arial)
+<div style="text-align:right;">Hier den Text eingeben</div>		                  Schriftort (rechts, links mitte)    "Left, right, center, justify"
+<font color="white" face="arial">			                                        	Schriftfarbe + Art
+<center>Hier der Text</center>                                                  Schriftort Mitte
+
+<audio controls>
+  <source src="Name der Musikdatei.mp3" type="audio/mpeg">                      um eine musikdatei einzubetten
+</audio>                                                        
+
+<embed src="name der musikdatei.mp3" hidden="true"> 	                          Hintergrundmusik
+
+<a href="hyperlink" >angezeigter name</a>		                                  	Hyperlink (selber tab)
+<a href="hyperlink" target="_blank" >angezeigter name</a>	                      Hyperlink (neuer tab)
+
+<address>
+Website made by <a href="mailto:Hier die E-mail-adresse">Name des Besitzer der E-mail</a>         Um seine E-mail zu verlinken
+</address>
+
+<a href="Hier der Link"><img src="Hier das Bild.jpg" height="250xp"; width="350xp";  /> </a>      Um ein Bild mit einem Link zu versehen
+
+<button
+type="button" onclick="alert('Was die Seite melden soll')">Was auf dem Button stehen soll         Um ein Button zu erstellen
+</button>
+
+<textarea rows="4" cols="50">Hier kommt der Text rein </textarea>                                 Um ein Textfeld zu machen
+
+<summary>CHIer kommt der Text rein</summary>                                                      Um eine Pfeileliste zu erstellen
+
+<dir>                                                                                             Um (Punkt)listen zu erstellen
+  <li>html</li>
+  .....
+</dir>
+
+<select>                                                                                          Um eine hoch-und runter liste zu machen
+  <option value="volvo">Volvo</option>
+  ....
+
+Downloading progress:                                                                             Um ein Downloadprozess zu erstelen
+<progress value="22" max="100">
+</progress>
+
+<embed src="Hier die Animation.swf">                                                              Um eine Animation einzufügen
+
+<ol start="50">                                                                                   Um eine nummerierte Liste zu machen
+  <li>Coffee</li>
+  ....
+
+
+http://www.w3schools.com/tags/tag_fieldset.asp                                                    Um Textfelder/Liste zu erstellen
+
+http://www.w3schools.com/tags/tag_caption.asp                                                     Um Tabellen zu erstellen
+http://www.w3schools.com/tags/tag_col.asp                                                         Um Tbaellen zu färben 
+
+http://www.w3schools.com/tags/tag_datalist.asp                                                    Um Datenlisten zu erstellen
+
+http://www.w3schools.com/tags/tag_optgroup.asp                                                    Um eine Listegruppe zu erstellen  
+
+http://www.w3schools.com/tags/tag_output.asp                                                      Um einen Rechner zu erstellen 
+
